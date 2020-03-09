@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HOME</title>
+	<!-- Кодировка веб-страницы -->
+	<meta charset="utf-8">
+	<!-- Настройка viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="style.less" >
+	<link rel="stylesheet" type="text/css" href="style.css" >
+	<link rel="stylesheet" type="text/css" href="bootstrap.css" >
+	<link rel="stylesheet" type="text/css" href="bootstrap-yet.css" >
+
+	<link rel="stylesheet" type="text/css" href="slick.css">
+	<link rel="stylesheet" type="text/css" href="slick-theme.css">
+
+	<link rel="stylesheet" href="owl.carousel.min.css">
+	<link rel="stylesheet" href="owl.theme.default.min.css">
+	
+
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+	<script src="slick.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="animate-2.css" />
+
+
+	<script src="viewportchecker.js"></script>
+
+
+	<script type="text/javascript">
+		$(document).on('ready', function() {
+			$(".big-car").slick({
+				dots: true,
+				infinite: true,
+				autoplay: true,
+				autoplaySpeed: 2000,
+				centerMode: true,
+				slidesToShow: 1,
+				slidesToScroll: 3
+			});
+		});
+	</script>
+</head>
+<body class="gridlock ">
+	
+<section class="carous">
+	<div class="row">
+		<div class="layout-cell max-12 desktop-12 tablet-6 mobile-3 min-3">
+			<div class="big-car slider">
+				<div>
+					<img src="img/gal-1.jpg">
+				</div>
+				<div>
+					<img src="img/gal-2.jpg">
+				</div>
+				<div>
+					<img src="img/gal-3.jpg">
+				</div>
+				<div>
+					<img src="img/gal-4.jpg">
+				</div>
+				<div>
+					<img src="img/gal-5.jpg">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+</body>
+</html>
